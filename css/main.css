@@ -14,7 +14,7 @@ header {
 
 #logo {
   float: left;
-  margin: 15px 15px 15px 20px;
+  margin: 15px 15px 8px 20px;
 }
 
 #moto {
@@ -33,7 +33,12 @@ header {
 }
 
 .line {
-  border-top: 5px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  margin-top: 10px;
+}
+
+#top_nav {
+  margin-top: 25px;
 }
 
 #top_nav li {
@@ -42,4 +47,12 @@ header {
 
 .clear {
   clear: both;
+}
+
+#section_top li {
+  display: inline;
+}
+
+li.menu_item {
+  margin-left: 30px;
 }
