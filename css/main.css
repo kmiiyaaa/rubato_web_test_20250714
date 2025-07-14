@@ -71,3 +71,70 @@ li.menu_item {
   background-color: #00a8ab;
   margin-top: 5px;
 }
+
+#customer {
+  float: left;
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+
+#customer .title {
+  /* id로잡는경우 한번 띄어야한다 */
+  float: left;
+  margin-left: 10px;
+}
+
+#customer .more {
+  float: right;
+}
+
+#customer #phone {
+  margin-left: 10px;
+}
+
+#notice {
+  float: left;
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-left: 31px;
+}
+
+#notic .title {
+  float: left;
+  margin-left: 10px;
+}
+
+#notice .more {
+  float: right;
+}
+
+#notice .subject {
+  float: left;
+  margin-left: 10px;
+}
+
+#notice .date {
+  float: right;
+  margin-right: 10px;
+}
+
+#notice ul {
+  margin-top: 15px;
+}
+
+#notice li {
+  margin-top: 5px;
+}
+
+#faq {
+  float: left;
+  width: 300px;
+  height: 150px;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-left: 25px;
+}
