@@ -6,7 +6,7 @@
 /*header*/
 
 header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #index_page {
@@ -149,7 +149,7 @@ li.menu_item {
 #sitemap div {
   height: 140px;
   float: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 5px 0 10px;
 }
 
@@ -167,4 +167,55 @@ li.menu_item {
 
 #sitemap ul {
   color: #666666;
+}
+
+/*footer*/
+
+footer {
+  border-top: 3px solid #00a8ab;
+  padding: 15px;
+}
+
+footer #address {
+  float: left;
+}
+
+footer #link {
+  float: right;
+}
+
+footer #footer-menu {
+  margin-top: 5px;
+}
+
+footer #company-inform {
+  margin-top: 20px;
+}
+
+footer #company-inform li {
+  margin-top: 2px;
+}
+
+footer #copyright {
+  margin-top: 10px;
+  font-size: 11px;
+  color: black;
+}
+
+footer #link {
+  font-size: 16px;
+  color: #00a8ab;
+}
+
+footer #link select {
+  margin-top: 5px;
+  margin-left: 80px;
+  width: 100px;
+  height: 20px;
+  font-size: 11px;
+}
+
+footer #icons {
+  margin-top: 5px;
+  text-align: right; /*이미지들은 문자처럼 정렬 가능*/
 }
