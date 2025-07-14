@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/*header*/
+
 header {
   border: 1px solid red;
 }
@@ -55,4 +57,17 @@ header {
 
 li.menu_item {
   margin-left: 30px;
+}
+
+/*main*/
+
+#banner ul li {
+  display: inline;
+  margin-left: 32px;
+}
+
+#banner {
+  height: 100px;
+  background-color: #00a8ab;
+  margin-top: 5px;
 }
