@@ -138,3 +138,33 @@ li.menu_item {
   margin-top: 20px;
   margin-left: 25px;
 }
+
+/*sitemap section*/
+
+#sitemap {
+  /* border: 1ps solid blue; */
+  padding: 20px 0 0 15px;
+}
+
+#sitemap div {
+  height: 140px;
+  float: left;
+  border: 1px solid red;
+  margin: 0 5px 0 10px;
+}
+
+#sitemap li {
+  list-style-image: url("../images/blue_dot.gif");
+  /* 다른폴더(css)에 있어서 일단 다른경로 지정 후 해야한다. */
+  margin: 5px 0 0 20px;
+}
+
+#sitemap h3 {
+  color: #00a8ab;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+#sitemap ul {
+  color: #666666;
+}
