@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 1px solid red;
+}
+
+#index_page {
+  width: 1000px;
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+#logo {
+  float: left;
+  margin: 15px 15px 15px 20px;
+}
+
+#moto {
+  float: left;
+  margin-top: 48px;
+}
+
+#top_menu {
+  float: right;
+  margin: 50px 0 0 0;
+  font-size: 12px;
+}
+
+#top_menu li {
+  display: inline; /* 목록 가로로 만들어주는거*/
+}
+
+.line {
+  border-top: 5px solid #cccccc;
+}
+
+#top_nav li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
